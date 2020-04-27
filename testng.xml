@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Resources.ExtentReporterNG"/>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="AmericanAirlines.AAmerican.qaclickacademy"/>
+      <class name="AmericanAirlines.AAmerican.HomePage"/>
+      <class name="AmericanAirlines.AAmerican.hotelsearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

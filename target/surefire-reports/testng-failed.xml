@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="AmericanAirlines.AAmerican.hotelsearch">
+        <methods>
+          <include name="searchhotel"/>
+        </methods>
+      </class> <!-- AmericanAirlines.AAmerican.hotelsearch -->
+      <class name="AmericanAirlines.AAmerican.qaclickacademy">
+        <methods>
+          <include name="basepagenavigation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- AmericanAirlines.AAmerican.qaclickacademy -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

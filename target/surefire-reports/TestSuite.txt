@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 149.95 s <<< FAILURE! - in TestSuite
+basepagenavigation(AmericanAirlines.AAmerican.qaclickacademy)  Time elapsed: 29.855 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a href="http://qaclickacademy.usefedora.com/sign_in"> is not clickable at point (1324,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'TANIM', ip: '192.168.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12088, moz:profile: C:\Users\syed\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 27b9de9a-a19f-456b-aa15-666adbdf9fb2
+	at AmericanAirlines.AAmerican.qaclickacademy.basepagenavigation(qaclickacademy.java:39)
+
+basepagenavigation(AmericanAirlines.AAmerican.qaclickacademy)  Time elapsed: 33.987 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a href="http://qaclickacademy.usefedora.com/sign_in"> is not clickable at point (1324,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'TANIM', ip: '192.168.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 8932, moz:profile: C:\Users\syed\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 92579f35-815e-4ff1-9410-70300351589b
+	at AmericanAirlines.AAmerican.qaclickacademy.basepagenavigation(qaclickacademy.java:39)
+
+searchhotel(AmericanAirlines.AAmerican.hotelsearch)  Time elapsed: 16.702 s  <<< FAILURE!
+java.util.NoSuchElementException
+	at AmericanAirlines.AAmerican.hotelsearch.searchhotel(hotelsearch.java:48)
+

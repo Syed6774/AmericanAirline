@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84126" started-at="2020-04-27T00:04:17Z" finished-at="2020-04-27T00:05:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="84126" started-at="2020-04-27T00:04:17Z" finished-at="2020-04-27T00:05:41Z">
+      <class name="AmericanAirlines.AAmerican.qaclickacademy">
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AmericanAirlines.AAmerican.qaclickacademy@74fe5c40]" name="basepagenavigation" duration-ms="49056" started-at="2020-04-26T19:04:17Z" data-provider="getData" finished-at="2020-04-26T19:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London6774]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AmericanAirlines.AAmerican.qaclickacademy@74fe5c40]" name="basepagenavigation" duration-ms="35054" started-at="2020-04-26T19:05:06Z" data-provider="getData" finished-at="2020-04-26T19:05:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London6768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+      </class> <!-- AmericanAirlines.AAmerican.qaclickacademy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
