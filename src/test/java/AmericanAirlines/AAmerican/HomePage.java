@@ -66,6 +66,7 @@ selectday(driver,day);
 bp.btnclick().click();
 
 driver.quit();
+System.out.println("=====================================================================================");
 
 }
 

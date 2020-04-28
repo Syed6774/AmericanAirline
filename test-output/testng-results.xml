@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="84126" started-at="2020-04-27T00:04:17Z" finished-at="2020-04-27T00:05:41Z">
+  <suite name="Suite" duration-ms="167327" started-at="2020-04-27T23:57:17Z" finished-at="2020-04-28T00:00:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="84126" started-at="2020-04-27T00:04:17Z" finished-at="2020-04-27T00:05:41Z">
+    <test name="Test" duration-ms="167327" started-at="2020-04-27T23:57:17Z" finished-at="2020-04-28T00:00:04Z">
+      <class name="AmericanAirlines.AAmerican.HomePage">
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:AmericanAirlines.AAmerican.HomePage@4efbca5a]" name="basepagenavigation" duration-ms="57667" started-at="2020-04-27T18:58:40Z" finished-at="2020-04-27T18:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+      </class> <!-- AmericanAirlines.AAmerican.HomePage -->
+      <class name="AmericanAirlines.AAmerican.hotelsearch">
+        <test-method status="PASS" signature="searchhotel()[pri:0, instance:AmericanAirlines.AAmerican.hotelsearch@6069db50]" name="searchhotel" duration-ms="25995" started-at="2020-04-27T18:59:38Z" finished-at="2020-04-27T19:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhotel -->
+      </class> <!-- AmericanAirlines.AAmerican.hotelsearch -->
       <class name="AmericanAirlines.AAmerican.qaclickacademy">
-        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AmericanAirlines.AAmerican.qaclickacademy@74fe5c40]" name="basepagenavigation" duration-ms="49056" started-at="2020-04-26T19:04:17Z" data-provider="getData" finished-at="2020-04-26T19:05:06Z">
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AmericanAirlines.AAmerican.qaclickacademy@5c33f1a9]" name="basepagenavigation" duration-ms="46687" started-at="2020-04-27T18:57:17Z" data-provider="getData" finished-at="2020-04-27T18:58:03Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepagenavigation -->
-        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AmericanAirlines.AAmerican.qaclickacademy@74fe5c40]" name="basepagenavigation" duration-ms="35054" started-at="2020-04-26T19:05:06Z" data-provider="getData" finished-at="2020-04-26T19:05:41Z">
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AmericanAirlines.AAmerican.qaclickacademy@5c33f1a9]" name="basepagenavigation" duration-ms="36934" started-at="2020-04-27T18:58:03Z" data-provider="getData" finished-at="2020-04-27T18:58:40Z">
           <params>
             <param index="0">
               <value>
@@ -40,6 +52,6 @@
           </reporter-output>
         </test-method> <!-- basepagenavigation -->
       </class> <!-- AmericanAirlines.AAmerican.qaclickacademy -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,6 @@
+18:59:25.933 [main] INFO  Resources.BrowserInvokation - October 2020
+18:59:28.471 [main] INFO  Resources.BrowserInvokation - November 2020
+18:59:30.938 [main] INFO  Resources.BrowserInvokation - December 2020
+18:59:33.587 [main] INFO  Resources.BrowserInvokation - day has been selected-- it cam from inside a method
+18:59:56.063 [main] INFO  Resources.BrowserInvokation - hotel search has been made.
+18:59:56.210 [main] INFO  Resources.BrowserInvokation - switched to child window for hotel search
