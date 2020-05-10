@@ -5,6 +5,8 @@
     <classes>
       <class name="AmericanAirlines.AAmerican.qaclickacademy">
         <methods>
+          <include name="closebrowser"/>
+          <include name="initialize"/>
           <include name="basepagenavigation" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- AmericanAirlines.AAmerican.qaclickacademy -->

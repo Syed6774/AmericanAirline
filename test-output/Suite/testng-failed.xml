@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
+  <listeners>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Validate User can login to QA Click Academy with multipl Users(failed)">
     <classes>
       <class name="AmericanAirlines.AAmerican.qaclickacademy">
         <methods>
+          <include name="closebrowser"/>
+          <include name="initialize"/>
           <include name="basepagenavigation" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- AmericanAirlines.AAmerican.qaclickacademy -->
+      <class name="AmericanAirlines.AAmerican.hotelsearch">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- AmericanAirlines.AAmerican.hotelsearch -->
+      <class name="AmericanAirlines.AAmerican.HomePage">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- AmericanAirlines.AAmerican.HomePage -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Validate User can login to QA Click Academy with multipl Users(failed) -->
 </suite> <!-- Failed suite [Suite] -->

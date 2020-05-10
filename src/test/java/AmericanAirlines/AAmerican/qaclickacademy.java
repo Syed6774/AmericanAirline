@@ -5,6 +5,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -13,8 +16,17 @@ import junit.framework.Assert;
 
 
 public class qaclickacademy extends BrowserInvokation {
-	
+	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(BrowserInvokation.class.getName());
+	
+	
+	@BeforeTest
+	public void initialize() throws IOException {
+		driver = initializebrowser();
+		driver.get("http://qaclickacademy.com");
+		log.info("Navigated to QA Click Academy");
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	}
 	
 	
 	@Test(dataProvider="getData")
@@ -25,7 +37,7 @@ public class qaclickacademy extends BrowserInvokation {
 		
 		driver= initializebrowser();
 		
-		driver.get("http://qaclickacademy.com");
+		
 		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		pageobjects.loginPage lp = new pageobjects.loginPage(driver);
 		/*try {
@@ -41,9 +53,14 @@ public class qaclickacademy extends BrowserInvokation {
 		lp.getpwd().sendKeys(Password);
 		lp.getloginbtn().click();
 		
-		driver.quit();
+		
 
 	
+	}
+	@AfterTest
+	public void closebrowser() {
+		driver.close();
+		driver.quit();
 	}
 
 	@DataProvider

@@ -1,6 +1,0 @@
-19:17:58.770 [main] INFO  Resources.BrowserInvokation - Navigated to the American Airline Website
-19:17:59.582 [main] INFO  Resources.BrowserInvokation - Clicked the drop down
-19:18:02.787 [main] INFO  Resources.BrowserInvokation - Clicked on Flight Search
-19:18:04.397 [main] INFO  Resources.BrowserInvokation - Selected Passenger Number
-19:18:04.600 [main] INFO  Resources.BrowserInvokation - Selected Passenger age
-19:18:27.183 [main] INFO  Resources.BrowserInvokation - day has been selected-- it cam from inside a method

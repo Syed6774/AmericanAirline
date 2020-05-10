@@ -4,11 +4,23 @@
 <listeners>
 <listener class-name="Resources.ExtentReporterNG"/>
 </listeners>
-  <test name="Test">
+  <test name="Validate User can login to QA Click Academy with multipl Users">
     <classes>
       <class name="AmericanAirlines.AAmerican.qaclickacademy"/>
+      
+       </classes>
+       </test>
+      
+      <test name="Validte user can search flight from american airline website">
+    <classes>
       <class name="AmericanAirlines.AAmerican.HomePage"/>
+      
+       </classes>
+       </test>
+        <test name="Validte user can navigate to hotel page and search hotels.">
+    <classes>
       <class name="AmericanAirlines.AAmerican.hotelsearch"/>
     </classes>
-  </test> <!-- Test -->
+     </test>
+ 
 </suite> <!-- Suite -->
