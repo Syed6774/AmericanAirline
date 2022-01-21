@@ -11,7 +11,7 @@ public class BookingPage {
 	public WebDriver driver;
 	@FindBy (xpath=("//input[@id='segments0.origin']"))
 	private  WebElement originfrom;
-	
+	// This is a test
 	
 	@FindBy (xpath=("//input[@id='segments0.destination']"))
 	
