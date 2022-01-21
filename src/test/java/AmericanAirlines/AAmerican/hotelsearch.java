@@ -27,6 +27,8 @@ public class hotelsearch extends BrowserInvokation {
 		driver = initializebrowser();
 		driver.get("https://www.aa.com/homePage.do");
 		log.info("Navigated to the American Airline Website");
+		log.info ("Navigated to the hotel website")
+			
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 	@Test
